@@ -1,0 +1,32 @@
+.showcase-banner {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+  align-items: center;
+  background-color: #f3f5fa;
+  padding: 1rem;
+}
+
+.showcase-img-container {
+  /* width: 15%; */
+  height: auto;
+}
+
+.showcase-img {
+  /* width: 100%; */
+  height: auto;
+  filter: grayscale(100);
+  max-width: 60%;
+}
+
+@media screen and (max-width: 800px) {
+  .showcase-banner {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .showcase-banner {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

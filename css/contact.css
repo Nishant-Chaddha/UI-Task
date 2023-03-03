@@ -1,0 +1,174 @@
+.contact-card-container {
+  width: 100%;
+  margin: 10px 20%;
+  /* display: grid; */
+  display: flex;
+  justify-content: space-evenly;
+  /* gap: 1.5rem; */
+
+  /* grid-template-columns: 3fr 4.2fr; */
+}
+
+.contact-card {
+  width: 30%;
+  padding: 1.9rem;
+  border-top: 3px solid #47b2e4;
+  border-bottom: 3px solid #47b2e4;
+  box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+  /* display: flex; */
+  /* gap: 5px; */
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-card-2 {
+  width: 50%;
+  padding: 1.9rem;
+  border-top: 3px solid #47b2e4;
+  border-bottom: 3px solid #47b2e4;
+  box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+  /* display: flex; */
+  /* gap: 5px; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-us-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us-section-header {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  /* margin-bottom: 20px;
+      padding-bottom: 20px; */
+  color: #37517e;
+}
+
+.contact-card-container {
+  margin: 10px 5%;
+}
+
+.contact-us-section-body-description {
+  margin: 10px 5%;
+  text-align: center;
+}
+.location .material-symbols-outlined,
+.mail .material-symbols-outlined,
+.call .material-symbols-outlined {
+  padding: 0.8rem;
+  border-radius: 60%;
+  background-color: #e7f5fb;
+  color: #57b8e6;
+}
+
+.address-location,
+.email-address-mail,
+.phone-number-call {
+  padding: 0 0 0 1rem;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #37517e;
+}
+.ad,
+.em,
+.ph {
+  padding: 0 0 10px 1rem;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #6182ba;
+}
+.address,
+.email-address,
+.phone-number {
+  display: flex;
+  flex-direction: column;
+}
+
+.name label,
+.email label,
+.subject label,
+.message label {
+  margin: 0.5rem;
+}
+
+.name,
+.email {
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+  margin-bottom: 1.2rem;
+}
+
+.subject,
+.message {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.2rem;
+}
+
+.name-email {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  height: 36px;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #212529;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+}
+.message textarea {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  resize: vertical;
+  height: 15rem;
+}
+
+.send-message {
+  text-align: center;
+}
+
+.send-message button {
+  background: #47b2e4;
+  border: 0;
+  padding: 12px 34px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.location,
+.mail,
+.call {
+  display: flex;
+}
+@media screen and (max-width: 800px) {
+  .contact-card-container {
+    width: 90%;
+    margin: 10px 20%;
+    /* display: grid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+
+    /* grid-template-columns: 3fr 4.2fr; */
+  }
+  .contact-card1,
+  .contact-card-2 {
+    width: 90%;
+  }
+  .contact-card {
+    width: 90%;
+    margin-top: 1rem;
+  }
+}

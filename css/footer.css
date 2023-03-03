@@ -1,0 +1,16 @@
+.footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #37517e;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+ .copyright {
+  margin-left: 5%;
+}
+
+.credits {
+  margin-right: 5%;
+} 

@@ -1,0 +1,54 @@
+.news-letter {
+  background-color: #f3f5fa;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.join {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  color: #37517e;
+}
+
+.join-description {
+  margin-bottom: 1rem;
+}
+
+.buttonIn button {
+  position: absolute;
+  border-radius: 48px;
+  padding: 0 2rem;
+  right: 0px;
+  z-index: 2;
+  border: none;
+  top: 0;
+  height: 2.4rem;
+  cursor: pointer;
+  color: white;
+  background-color: #47b2e4;
+  font-size: 1rem;
+}
+
+.buttonIn {
+  width: 50%;
+  position: relative;
+}
+
+.buttonIn input {
+  margin: 0px;
+  padding: 4px 0px;
+  width: 100%;
+  outline: none;
+  height: 30px;
+  border-radius: 18px;
+}
+
+/* .join,.join-description,.buttonIn{
+    text-align: center;
+} */
