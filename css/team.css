@@ -20,10 +20,9 @@
 }
 
 .team-us-section-body-description {
-  margin: 10px 10%;
+  margin: 15px 10%;
   text-align: center;
 }
-
 
 .team-card-title {
   font-weight: 500;
@@ -79,7 +78,6 @@
 .team-description {
   padding-left: 30px;
 }
-
 
 @media screen and (max-width: 900px) {
   .team-card-container {

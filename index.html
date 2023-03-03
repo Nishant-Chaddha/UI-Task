@@ -11,16 +11,16 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="./css/all.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jost&family=Montserrat&family=Montserrat+Subrayada&family=Open+Sans:wght@500&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost&family=Montserrat&family=Montserrat+Subrayada&family=Open+Sans:wght@500&family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <!-- header css file loaded -->
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/showcaseBanner.css" />
@@ -35,8 +35,8 @@
     <link rel="stylesheet" href="./css/faq.css" />
     <link rel="stylesheet" href="./css/contact.css" />
     <link rel="stylesheet" href="./css/news-letter.css" />
-    <link rel="stylesheet" href="./css/footer-1.css"/>
-    <link rel="stylesheet" href="./css/footer.css"/>
+    <link rel="stylesheet" href="./css/contact-links.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
     <title>Document</title>
     <style>
       body {
@@ -44,7 +44,7 @@
         color: #444444;
         width: 100%;
         position: relative;
-        margin:0px;
+        margin: 0px;
       }
       h1,
       h2,
@@ -57,51 +57,40 @@
     </style>
   </head>
   <body>
+    <div class="header">
+      <span class="logo">ARSHA</span>
+      <nav class="navbar">
+        <ul class="nav-links-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Team</a></li>
+          <li>
+            <div class="dropdown">
+              <button onclick="myFunction()" class="dropbtn">Drop Down</button>
 
-  <div class="header">
-    <span class="logo">ARSHA</span>
-    <nav class="navbar">
-    
-      <ul class="nav-links-list">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Team</a></li>
-        <li>
-          <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">Drop Down</button>
-            
-            <div id="myDropdown" class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
             </div>
-          </div>
-        </li>
-        <li><a href="#">Contact</a></li>
-        <li><button class="start-btn">Get Started</button></li>
-      </ul>
-    </nav>
+          </li>
+          <li><a href="#">Contact</a></li>
+          <li><button class="start-btn">Get Started</button></li>
+        </ul>
+      </nav>
 
-    <div class="mobile-navbar-btn">
-    <div  class="menu">
-      <span class="material-symbols-outlined menu-outline">
-        menu
-        </span>
-    </div>  
-    <div class="close">
-      <span class="material-symbols-outlined close-outline">
-        close
-        </span>
-    </div>  
+      <div class="mobile-navbar-btn">
+        <div class="menu">
+          <span class="material-symbols-outlined menu-outline"> menu </span>
+        </div>
+        <div class="close">
+          <span class="material-symbols-outlined close-outline"> close </span>
+        </div>
+      </div>
     </div>
-  </div>
-
-  
-    
-
-
     <section class="second-section">
       <div class="left">
         <h1>Better Solutions For Your Business</h1>
@@ -121,11 +110,9 @@
       <div class="showcase-img-container">
         <img class="showcase-img" src="./assets/client-1.png" />
       </div>
-
       <div class="showcase-img-container">
         <img class="showcase-img" src="./assets/client-2.png" />
       </div>
-
       <div class="showcase-img-container">
         <img class="showcase-img" src="./assets/client-3.png" />
       </div>
@@ -154,22 +141,18 @@
           <ul>
             <li>
               <img />
-              <span class="material-symbols-outlined">
-                done_all
-                </span>    Ullamco laboris nisi ut aliquip ex ea commodo consequat
+              <span class="material-symbols-outlined"> done_all </span> Ullamco
+              laboris nisi ut aliquip ex ea commodo consequat
             </li>
 
             <li>
               <img />
-              <span class="material-symbols-outlined">
-                done_all
-                </span>     Duis aute irure dolor in reprehenderit in voluptate velit
+              <span class="material-symbols-outlined"> done_all </span> Duis
+              aute irure dolor in reprehenderit in voluptate velit
             </li>
 
             <li>
-              <span class="material-symbols-outlined">
-                done_all
-                </span>
+              <span class="material-symbols-outlined"> done_all </span>
               Ullamco laboris nisi ut aliquip ex ea commodo consequat
             </li>
           </ul>
@@ -210,7 +193,7 @@
             <span class="material-symbols-outlined"> expand_more </span>
           </div>
 
-          <div id="subblock" style="display: none;">
+          <div id="subblock" style="display: none">
             Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
             volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna
             fringilla urna porttitor rhoncus dolor purus non.
@@ -228,7 +211,7 @@
             <span class="material-symbols-outlined"> expand_more </span>
           </div>
 
-          <div id="subblock"  style="display: none;">
+          <div id="subblock" style="display: none">
             Dolor sit amet consectetur adipiscing elit pellentesque habitant
             morbi. Id interdum velit laoreet id donec ultrices. Fringilla
             phasellus faucibus scelerisque eleifend donec pretium. Est
@@ -248,7 +231,7 @@
             <span class="material-symbols-outlined"> expand_more </span>
           </div>
 
-          <div id="subblock"  style="display: none;">
+          <div id="subblock" style="display: none">
             Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis
             orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra
             diam sit amet nisl suscipit. Rutrum tellus pellentesque eu
@@ -272,7 +255,7 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
-        <div class="progress-bar-list">dhjdbjhbfdfdbfdk</div>
+        <div class="progress-bar-list"></div>
       </div>
     </div>
 
@@ -296,7 +279,7 @@
               </p>
             </div>
             <div class="services-card">
-              <div class="icon"><i class=" fa-solid fa-file-lines"></i></div>
+              <div class="icon"><i class="fa-solid fa-file-lines"></i></div>
               <h4 class="service-card-title">Sed ut perspici</h4>
               <p>
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -304,9 +287,9 @@
               </p>
             </div>
             <div class="services-card">
-              <div class="icon"><span class="material-symbols-outlined">
-                speed
-                </span></div>
+              <div class="icon">
+                <span class="material-symbols-outlined"> speed </span>
+              </div>
               <h4 class="service-card-title">Magni Dolores</h4>
               <p>
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa
@@ -323,40 +306,6 @@
             </div>
           </div>
         </div>
-        <!-- <div class="about-us-container-body-left">
-          <p class="para">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-          <ul>
-            <li>
-              <img />
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat
-            </li>
-
-            <li>
-              <img />
-              Duis aute irure dolor in reprehenderit in voluptate velit
-            </li>
-
-            <li>
-              <i class="fa-solid fa-angle-down"></i>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat
-            </li>
-          </ul>
-        </div> -->
-
-        <!-- <div class="about-us-container-body-right">
-          <p class="para">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore
-            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est
-            laborum.
-          </p>
-
-          <a href="#" class="learn-more-btn">Learn More</a>
-        </div> -->
       </div>
     </div>
 
@@ -397,68 +346,16 @@
           </ul>
         </div>
         <div class="categories-img-container">
-          <!-- <div class="categories-img categories-img1"> -->
           <img src="./assets/portfolio-1.jpg" />
-          <!-- </div>
-          <div class="categories-img categories-img2"> -->
           <img src="./assets/portfolio-2.jpg" />
-          <!-- </div>
-          <div class="categories-img categories-img3"> -->
           <img src="./assets/portfolio-3.jpg" />
-          <!-- </div>
-          <div class="categories-img categories-img4"> -->
           <img src="./assets/portfolio-4.jpg" />
-          <!-- </div> -->
-          <!-- <div class="categories-img categories-img5"> -->
           <img src="./assets//portfolio-5.jpg" />
-          <!-- </div> 
-          <div class="categories-img categories-img6"> -->
           <img src="./assets/portfolio-6.jpg" />
-          <!-- </div>
-          <div class="categories-img categories-img7"> -->
           <img src="./assets/portfolio-7.jpg" />
-          <!-- </div>
-          <div class="categories-img categories-img8"> -->
           <img src="./assets//portfolio-8.jpg" />
-          <!-- </div> -->
-          <!-- <div class="categories-img categories-img9"> -->
           <img src="./assets//portfolio-9.jpg" />
-          <!-- </div> -->
         </div>
-        <!-- <div class="about-us-container-body-left">
-          <p class="para">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-          <ul>
-            <li>
-              <img />
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat
-            </li>
-
-            <li>
-              <img />
-              Duis aute irure dolor in reprehenderit in voluptate velit
-            </li>
-
-            <li>
-              <i class="fa-solid fa-angle-down"></i>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat
-            </li>
-          </ul>
-        </div> -->
-
-        <!-- <div class="about-us-container-body-right">
-          <p class="para">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore
-            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est
-            laborum.
-          </p>
-
-          <a href="#" class="learn-more-btn">Learn More</a>
-        </div> -->
       </div>
     </div>
 
@@ -471,11 +368,9 @@
           quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
           fugiat sit in iste officiis commodi quidem hic quas.
         </p>
-
         <div class="team-card-container">
           <div class="team-card">
             <img class="team-member-img" src="./assets/team-1.jpg" />
-
             <div class="team-description">
               <div class="team-member-name">Walter White</div>
               <div class="team-member-designation">Chief Executive Officer</div>
@@ -484,10 +379,8 @@
               </div>
             </div>
           </div>
-
           <div class="team-card">
             <img class="team-member-img" src="./assets/team-2.jpg" />
-
             <div class="team-description">
               <div class="team-member-name">Sarah Jhonson</div>
               <div class="team-member-designation">Product Manager</div>
@@ -509,7 +402,6 @@
           </div>
           <div class="team-card">
             <img class="team-member-img" src="./assets/team-4.jpg" />
-
             <div class="team-description">
               <div class="team-member-name">Amanda Jepson</div>
               <div class="team-member-designation">Accountant</div>
@@ -519,43 +411,9 @@
             </div>
           </div>
         </div>
-        <!-- <div class="about-us-container-body-left">
-          <p class="para">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-          <ul>
-            <li>
-              <img />
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat
-            </li>
-
-            <li>
-              <img />
-              Duis aute irure dolor in reprehenderit in voluptate velit
-            </li>
-
-            <li>
-              <i class="fa-solid fa-angle-down"></i>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat
-            </li>
-          </ul>
-        </div> -->
-
-        <!-- <div class="about-us-container-body-right">
-          <p class="para">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore
-            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est
-            laborum.
-          </p>
-
-          <a href="#" class="learn-more-btn">Learn More</a>
-        </div> -->
       </div>
+      -->
     </div>
-
     <div class="pricing-us-section">
       <h2 class="pricing-us-section-header">PRICING</h2>
       <div class="pricing-us-section-body-container">
@@ -596,7 +454,6 @@
             </div>
             <button class="plan-start-btn">Get Started</button>
           </div>
-
           <div class="pricing-card">
             <div class="plan-type">Business Plan</div>
             <div class="cost-of-plan">$29</div>
@@ -625,7 +482,6 @@
             </div>
             <button class="plan-start-btn">Get Started</button>
           </div>
-
           <div class="pricing-card">
             <div class="plan-type">Developer Plan</div>
             <div class="cost-of-plan">$49</div>
@@ -656,7 +512,6 @@
           </div>
         </div>
       </div>
-
       <div class="team-us-section">
         <h2 class="team-us-section-header">FREQUENTLY ASKED QUESTIONS</h2>
         <div class="team-us-section-body-container">
@@ -666,7 +521,6 @@
             quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
             fugiat sit in iste officiis commodi quidem hic quas
           </p>
-
           <div class="faq-dropdown">
             <div class="blocks">
               <div class="bloc">
@@ -679,7 +533,6 @@
                 </span>
                 <span class="material-symbols-outlined"> expand_more </span>
               </div>
-
               <div id="subblock" class="hide">
                 Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
                 volutpat lacus laoreet non curabitur gravida. Venenatis lectus
@@ -697,7 +550,6 @@
                 </span>
                 <span class="material-symbols-outlined"> expand_more </span>
               </div>
-
               <div id="subblock" class="hide">
                 Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
                 volutpat lacus laoreet non curabitur gravida. Venenatis lectus
@@ -715,7 +567,6 @@
                 </span>
                 <span class="material-symbols-outlined"> expand_more </span>
               </div>
-
               <div id="subblock" class="hide">
                 Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
                 volutpat lacus laoreet non curabitur gravida. Venenatis lectus
@@ -763,7 +614,6 @@
           </div>
         </div>
       </div>
-
       <div class="contact-us-section">
         <h2 class="contact-us-section-header">CONTACT</h2>
         <div class="contact-us-section-body-container">
@@ -797,7 +647,6 @@
               <span class="em">info@example.com</span>
             </div>
           </div>
-
           <div class="call">
             <div class="phone-icon">
               <span class="material-symbols-outlined"> phone_iphone </span>
@@ -807,24 +656,18 @@
 
               <span class="ph">+1 5589 55488 55s</span>
             </div>
-            <!-- <div class="map"
-       >
-      
-      </div> -->
           </div>
-          <div style="width: 100%">
+          <div>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.451214367385!2d78.395032!3d17.438104799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9145162080f1%3A0xb016755967316ceb!2sTechnovert%20Solutions!5e0!3m2!1sen!2sin!4v1677580098878!5m2!1sen!2sin"
-              width="200"
+              style="width: 100%"
               height="300"
-              style="border: 0"
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
         </div>
-
         <div class="contact-card-2">
           <div class="form-details">
             <div class="name-email">
@@ -858,129 +701,101 @@
         </div>
       </div>
     </div>
-
     <div class="news-letter">
       <div class="join">Join Our Newsletter</div>
       <div class="join-description">
         Tamen quem nulla quae legam multos aute sint culpa legam noster magna
       </div>
       <div class="buttonIn">
-        <input type="text" id="enter">
+        <input type="text" id="enter" />
         <button id="clear">Subscribe</button>
+      </div>
     </div>
-   
-        
-       
+    <div class="footer-1">
+      <div class="footer-contact">
+        <div class="company-name">Arsha</div>
+        <ul>
+          <li>A108 Adam Street</li>
+          <li>New York, NY 535022</li>
+          <li>United States</li>
+          <li><strong>Phone:</strong> +1 5589 55488 55</li>
+          <li><strong>Email:</strong> info@example.com</li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <div class="name-font">Useful Links</div>
+        <ul>
+          <li>
+            <span class="material-symbols-outlined"> chevron_right </span>
+            <a> Home</a>
+          </li>
+          <li>
+            <span class="material-symbols-outlined"> chevron_right </span>
+            <a> About us</a>
+          </li>
+          <li>
+            <span class="material-symbols-outlined"> chevron_right </span>
+            <a>Services</a>
+          </li>
+          <li>
+            <span class="material-symbols-outlined"> chevron_right </span>
+            <a>Terms of service</a>
+          </li>
+          <li>
+            <span class="material-symbols-outlined"> chevron_right </span>
+
+            <a>Privacy policy</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <div class="name-font">Our Services</div>
+        <ul>
+          <li>
+            <span class="material-symbols-outlined"> chevron_right </span>
+            <a>Web Design</a>
+          </li>
+          <li>
+            <span class="material-symbols-outlined"> chevron_right </span>
+            <a>Web Development</a>
+          </li>
+          <li>
+            <span class="material-symbols-outlined"> chevron_right </span>
+            <a>Product Management</a>
+          </li>
+          <li>
+            <span class="material-symbols-outlined"> chevron_right </span>
+            <a>Marketing</a>
+          </li>
+          <li>
+            <span class="material-symbols-outlined"> chevron_right </span>
+            <a>Graphic Design</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-social-network">
+        <div class="name-font">Our Social Networks</div>
+        <p>
+          Cras fermentum odio eu feugiat lide par naso tierra videa magna derita
+          valies
+        </p>
+        <div class="social-links-list">
+          <a><i class="fa-brands fa-twitter"></i></a>
+          <a><i class="fa-brands fa-facebook-f"></i></a>
+          <a><i class="fa-brands fa-instagram"></i></a>
+          <a><i class="fa-brands fa-skype"></i></a>
+          <a><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
       </div>
     </div>
 
-
-    <div class="footer-1">
-
-  <div class="footer-contact">
-    <div class="company-name">Arsha</div>
-   <ul >
-    <li > A108 Adam Street</li>
-    <li>New York, NY 535022</li>
-    <li>
-      United States</li>
-    <li><strong>Phone:</strong> +1 5589 55488 55</li>
-    <li>
-     <strong>Email:</strong>  info@example.com</li>
-   </ul>
-  
-  </div>
- 
-  
-  <div class="footer-links">
-    <div class="name-font">Useful Links</div>
-   <ul>
-    <li><span class="material-symbols-outlined">
-      chevron_right
-      </span>
-    <a> Home</a> </li>
-    <li><span class="material-symbols-outlined">
-      chevron_right
-      </span>
-     <a> About us</a></li>
-    <li><span class="material-symbols-outlined">
-      chevron_right
-      </span>
-     <a>Services</a> </li>
-    <li><span class="material-symbols-outlined">
-      chevron_right
-      </span>
-    <a>Terms of service</a>  </li>
-    <li><span class="material-symbols-outlined">
-      chevron_right
-      </span>
-   
-<a>Privacy policy</a></li>
-   </ul>
-  
-  </div>
-
-  <div class="footer-links">
-    <div class="name-font">
-      Our Services</div>
-   <ul>
-    <li><span class="material-symbols-outlined">
-      chevron_right
-      </span>
-     <a>Web Design</a>
-</li>
-    <li><span class="material-symbols-outlined">
-      chevron_right
-      </span>
-    <a>Web Development</a>
-</li>
-    <li><span class="material-symbols-outlined">
-      chevron_right
-      </span>
-   <a>Product Management</a>
-</li>
-    <li><span class="material-symbols-outlined">
-      chevron_right
-      </span>
-     <a>Marketing</a>
-</li>
-    <li><span class="material-symbols-outlined">
-      chevron_right
-      </span>
-   <a>Graphic Design</a>
-      </li>
-   </ul>
-  
-  </div>
-
-  <div class="footer-social-network">
-    <div class="name-font">Our Social Networks</div>
-<p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies
-</p>
-<div class="social-links-list">
-  <a><i class="fa-brands fa-twitter"></i></a>
-<a><i class="fa-brands fa-facebook-f"></i></a>
-<a><i class="fa-brands fa-instagram"></i></a>
-<a><i class="fa-brands fa-skype"></i></a>
-<a><i class="fa-brands fa-linkedin-in"></i></a>
-</div>
-  </div>
-
-
+    <div class="footer">
+      <div class="copyright">© Copyright Arsha. All Rights Reserved</div>
+      <div class="credits">Designed by BootstrapMade</div>
     </div>
-
-<div class="footer">
-<div class="copyright">
-  © Copyright Arsha. All Rights Reserved
-</div>
-<div class="credits">
-  Designed by BootstrapMade
-</div>
-
-</div>
-
-    <script></script>
-    <!-- header js loaded -->
     <script src="./js/header.js"></script>
     <script src="./js/eum.js"></script>
   </body>

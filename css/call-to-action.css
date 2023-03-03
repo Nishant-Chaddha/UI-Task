@@ -1,5 +1,5 @@
 .call-to-action-section {
-  background-color: #253654;
+  background-color: #30415e;
 }
 
 .call-to-action-header {
@@ -14,7 +14,7 @@
 .call-to-action-main-container {
   display: flex;
   justify-content: space-around;
-  padding: 7.5rem 0;
+  padding: 3.5rem 0;
 }
 
 .call-to-action-main-container p {
@@ -35,4 +35,18 @@
   font-weight: 500;
   border: 2px solid #fff;
   color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+  .call-to-action-main-container {
+    flex-direction: column;
+  }
+  .call-to-action-container {
+    align-items: center;
+    display: contents;
+    display: flex;
+    width: 90%;
+    padding: 0 1rem;
+    flex-direction: column;
+  }
 }

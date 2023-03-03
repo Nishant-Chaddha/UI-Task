@@ -113,22 +113,23 @@
 
 .material-symbols-outlined {
   cursor: pointer;
+  padding-right: 0.5rem;
 }
-.bloc span{
+.bloc span {
   display: flex;
 }
 
 @media screen and (max-width: 900px) {
   .eum {
     flex-direction: column-reverse;
+    align-items: center;
   }
   .eum-left {
     width: 100%;
   }
   .eum-img-right {
-    width: 50%;
- display: flex;
- justify-content: center;
+    width: 60%;
+    display: flex;
+    justify-content: center;
   }
 }
-
