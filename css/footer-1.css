@@ -1,0 +1,82 @@
+.footer-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 60px 5% 30px 5%;
+}
+
+.footer-contact {
+  /* border: 1px solid black; */
+}
+
+.footer-contact .company-name {
+  font-size: 28px;
+  margin: 0 0 10px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #37517e;
+  /* text-align: center; */
+  /* border: 1px solid black; */
+}
+
+ul {
+  padding: 0;
+}
+
+.footer-contact ul li {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Jost", sans-serif;
+  color: #5e5e5e;
+}
+.footer-contact ul li span {
+}
+
+.footer-links ul li a {
+  color: #777777;
+}
+
+.name-font {
+  font-size: 16px;
+  font-weight: bold;
+  color: #37517e;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+li {
+  display: flex;
+}
+
+span {
+  color: #47b2e4;
+}
+
+.social-links-list i {
+  font-size: 18px;
+  display: inline-block;
+  background: #47b2e4;
+  color: #fff;
+  padding: 1rem;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  .footer-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 60px 5% 30px 5%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footer-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* padding: 60px 5% 30px 5%; */
+  }
+}

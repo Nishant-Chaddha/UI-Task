@@ -1,0 +1,88 @@
+.team-us-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f5fa;
+}
+
+.team-us-section-header {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  /* margin-bottom: 20px;
+    padding-bottom: 20px; */
+  color: #37517e;
+}
+
+.team-card-container {
+  display: flex;
+}
+
+.team-us-section-body-description {
+  margin: 10px 10%;
+  text-align: center;
+}
+
+
+.team-card-title {
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+  font-size: 1.5rem;
+  color: #37517e;
+}
+
+.team-card-container {
+  margin: 10px 10%;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.team-card {
+  padding: 1.9rem;
+  box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+  display: flex;
+  /* gap: 5px; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .team-img {
+  width: 70%;
+  margin: 0 1rem;
+  border: 1px solid black;
+} */
+
+.team-member-img {
+  width: 30%;
+  border-radius: 50%;
+}
+
+.team-member-name {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #37517e;
+}
+
+.team-member-designation {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
+
+.team-member-work-description {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
+
+.team-description {
+  padding-left: 30px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .team-card-container {
+    grid-template-columns: 1fr;
+  }
+}

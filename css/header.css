@@ -1,0 +1,278 @@
+/* second-section.......................................................................... */
+
+.header {
+  display: flex;
+  width: 100vw;
+  top: 0;
+  background-color: #37517e;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+}
+.left {
+  width: 42%;
+}
+.second-section-right {
+  min-width: 350px;
+  width: 42%;
+}
+
+.second-section .left h1 {
+  font-family: sans-serif;
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 0px;
+}
+.second-section .left h2 {
+  font-size: 1.5rem;
+  color: #ffffff99;
+  margin-bottom: 50px;
+}
+
+.second-section {
+  display: flex;
+  justify-content: space-around;
+  background-color: #37517e;
+  margin-top: 71px;
+  padding: 60px 0;
+}
+
+.second-section-img {
+  width: 100%;
+  height: auto;
+}
+
+/* second-section end..................................................................................... */
+.navbar {
+  display: flex;
+  background-color: #37517e;
+  position: relative;
+}
+.logo {
+  color: white;
+  font-size: 30px;
+  /* border: 1px solid black; */
+}
+/* .close,
+.menu {
+  display: none;
+} */
+
+.nav-links-list {
+  display: flex;
+  /* border: 1px solid green; */
+  align-items: center;
+}
+ul {
+  list-style-type: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 0 10px 30px;
+  font-size: 15px;
+}
+
+/* Header dropdown code start.........................................................................*/
+.dropbtn {
+  background: none;
+  color: white;
+  /* padding: 16px; */
+  padding-left: 30px;
+  /* padding: 10px 0 10px 30px; */
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}
+
+/* header dropdown code ends.............................................................................. */
+
+.start-btn {
+  font-size: 14px;
+  border: 2px solid #47b2e4;
+  font-weight: 600;
+  border-radius: 50px;
+  color: white;
+  background: none;
+  padding: 8px 20px;
+  margin-left: 30px;
+  font-family: "Open Sans", sans-serif;
+  /* background-color: #37517e; */
+}
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 4px;
+  line-height: 1;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.get-started-btn {
+  background-color: #47b2e4;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+}
+
+.text {
+  color: white;
+  font-weight: 500;
+}
+
+.get-started-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.menu-icon {
+  cursor: pointer;
+}
+.menu-icon div {
+  width: 28px;
+  height: 2px;
+  background-color: white;
+  margin: 6px 0;
+}
+
+@media screen and (max-width: 800px) {
+  .second-section {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+    background-color: #37517e;
+    margin-top: 41px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .start-btn {
+    display: flex;
+    width: 95%;
+    color: #37517e;
+    margin-left: 25px;
+  }
+  .dropdown button {
+    padding: 10px 0 10px 30px;
+    font-size: 15px;
+    color: #37517e;
+  }
+  .mobile-navbar-btn .menu {
+    display: block;
+    /* z-index: 1000; */
+    color: green;
+  }
+  .navbar {
+    display: none;
+  }
+  .nav-links-list {
+    display: block;
+    width: 100%;
+    /* border: 1px solid green; */
+    align-items: center;
+  }
+  .navbar ul li a {
+    text-decoration: none;
+    color: #37517e;
+    padding: 10px 0 10px 30px;
+    font-size: 15px;
+  }
+}
+
+.mobile-navbar {
+  display: block;
+  position: relative;
+  z-index: 4;
+  position: absolute;
+  top: 40px;
+  width: 98%;
+  height: 90vh;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+
+@media screen and (max-width: 600px) {
+  .second-section .left h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+  .second-section .left h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .left {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .left h1 {
+    font-size: 35px;
+  }
+
+  .close {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .menu,
+  .close {
+    display: none;
+  }
+  .navbar {
+    display: block;
+    position: static !important;
+  }
+}

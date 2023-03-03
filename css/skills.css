@@ -1,0 +1,26 @@
+.skills{
+    display: flex;
+}
+
+.skills-left{
+    width: 48%;
+}
+.skills-img {
+    width: 100%;
+    height: auto;
+  }
+.skills-right{
+    width: 48%;
+}
+
+.skills-right h3 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #37517e;
+  font-family: "Poppins", sans-serif;
+}
+.skills-right p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-style: italic !important;
+}
