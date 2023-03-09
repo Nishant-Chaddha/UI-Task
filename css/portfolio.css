@@ -47,15 +47,27 @@
 }
 
 .categories-img-container {
-  margin: 0 20px;
+  display: flex;
+justify-content: space-around;
+  flex-wrap: wrap;
+
+  /* margin: 0 20px;
   display: grid;
   justify-content: center;
   align-items: center;
   gap: 30px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-rows: 420px;
-  grid-auto-flow: row dense;
+  grid-auto-flow: row dense; */
 }
+
+.categories-column {
+  width:30%;
+  max-width: 30%;
+  margin: 2rem 0;
+  /* border: 1px solid black; */
+}
+
 .categories-img-container img {
   width: 100%;
 }
